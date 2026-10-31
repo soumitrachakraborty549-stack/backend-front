@@ -14,6 +14,10 @@ app.get("/api/health", (req, res) => {
   return res.status(200).json({ status: "ok" });
 });
 
+app.get("/home", (req, res) => {
+  return res.sendFile(path.join(wildlifeFolder, "index.html"));
+});
+
 let writeQueue = Promise.resolve();
 
 function saveDonation(donation) {

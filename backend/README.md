@@ -10,6 +10,7 @@ npm start
 ```
 
 Open <http://localhost:3000>. Set the `PORT` environment variable to use a different port.
+The home page is also available at <http://localhost:3000/home>.
 
 ## API
 
