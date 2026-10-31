@@ -10,6 +10,9 @@ const wildlifeFolder = path.join(__dirname, "wildlife");
 
 app.use(express.json({ limit: "10kb" }));
 
+app.get("/api/health", (req, res) => {
+  return res.status(200).json({ status: "ok" });
+});
 
 let writeQueue = Promise.resolve();
 

@@ -13,4 +13,6 @@ Open <http://localhost:3000>. Set the `PORT` environment variable to use a diffe
 
 ## API
 
+`GET /api/health` returns HTTP `200` with `{ "status": "ok" }` when the server is running.
+
 `POST /api/donations` accepts JSON with `amount` (a positive number), `name` (up to 100 characters), and `email` (a valid email address). A successful request returns HTTP `201` with the saved donation. Invalid data returns HTTP `400` with an `error` message.
