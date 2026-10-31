@@ -1,0 +1,6 @@
+[submodule "backend/wildlife"]
+	path = backend/wildlife
+	url = https://github.com/soumitrachakraborty549-stack/wildlife.git
+[submodule "wildlife"]
+	path = wildlife
+	url = https://github.com/soumitrachakraborty549-stack/wildlife.git
