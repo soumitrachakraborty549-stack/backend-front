@@ -1,6 +1,6 @@
 # Wildlife donation backend
 
-This small Express server serves the website from `../wildlife` and saves donation form submissions in `donations.json`. It records donation details only; it does not process payments.
+This small Express server serves the website from `./wildlife` and saves donation form submissions in `donations.json`. It records donation details only; it does not process payments.
 
 ## Run locally
 

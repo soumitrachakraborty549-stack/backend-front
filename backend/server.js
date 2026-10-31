@@ -6,7 +6,7 @@ const { randomUUID } = require("node:crypto");
 const app = express();
 const port = Number(process.env.PORT) || 3000;
 const dataFile = path.join(__dirname, "donations.json");
-const wildlifeFolder = path.resolve(__dirname, "..", "wildlife");
+const wildlifeFolder = path.join(__dirname, "wildlife");
 
 app.use(express.json({ limit: "10kb" }));
 
