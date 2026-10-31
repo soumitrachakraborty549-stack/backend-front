@@ -1,0 +1,13 @@
+{
+  "name": "wildlife-donation-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API and local server for the Wildlife donation form",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
